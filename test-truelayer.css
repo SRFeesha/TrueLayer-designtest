@@ -5,11 +5,16 @@
 
 .card__link{
     display: inline-block;
+    height: min-content;
 }
 
 /* the disappearing text effect */
 .card__excerpt{
     position: relative;
+}
+.card__excerpt p{
+    max-height: 6em; /* I want to show max 4 line paragraph in the excerpt. If it's shorter that's fine.*/
+    overflow: hidden;
 }
 .card__excerpt:after {
     content: '';
