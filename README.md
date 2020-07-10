@@ -1,6 +1,6 @@
 # TrueLayer-designtest
 
-![mockup](https://ibb.co/B6JQPF4)
+![mockup](https://i.ibb.co/hdN4MwX/Mockup.png)
 
 
 ### Libraries used
@@ -36,7 +36,7 @@ I didn't use any CSS Preprocessor (usually i use sass) because I didn't find it 
 ### Other version
 There was another version of the layout, but other people really advised me to stick with the classic version because card appear not clickable + it was really *tamarra* (sorry can't translate this italian word it means something like lame but has much more meaning)
 
-![mockup version tamarro](https://ibb.co/xFJ3YXs)
+![mockup version tamarro](https://i.ibb.co/1z8bM7n/tamarro.png)
 
 
 ## Figma Prototype
