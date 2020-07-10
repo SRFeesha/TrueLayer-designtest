@@ -52,7 +52,7 @@ function textAppear () {
             duration: .5,
             ease: "power1.out",
             y: "-=30",
-            stagger: .15
+            // stagger: .15 //it's cooler with stagger, but i get a bug sometimes
         }
     )
     // I will not include the above timeline in tlMaster because otherwise it causes a bug: just the first cards render. Don't really know why — maybe a scrollTrigger issue (it was released 2 months ago that will not surprise me so much, altough GSAP makes really good products)? 
