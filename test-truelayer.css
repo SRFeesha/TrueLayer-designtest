@@ -63,7 +63,7 @@
 /* CARD HOVER */
 .card:hover {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
 }
 
 .card__link:hover {
@@ -115,4 +115,21 @@
     #all-articles .vertical-row {
       margin: 0 3rem;
     }
+}
+
+
+/* ANIMATION */
+/* we need to hide those items in order to make 'em appear from nothing */
+#crop-header h1,
+#crop-header h2 {
+    visibility: hidden;
+}
+
+.card--featured {
+    visibility: hidden;
+}
+
+.card--all-mentions{
+    visibility: hidden;
+    opacity: 0;
 }
