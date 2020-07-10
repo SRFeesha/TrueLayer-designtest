@@ -79,6 +79,7 @@
 
 
 /* Let's do a masonry layout — it's great to occupy the most space available when you have variable-length content */
+/* this strategy is unpractical if people have to manually add items. In that case a js based masonry grid (like this https://masonry.desandro.com/) could be way more user friendly */
 .vertical-row {
     flex-direction: column;
 }
