@@ -40,6 +40,11 @@
     text-transform: uppercase;
     position: relative;
     margin-right: 20px;
+    letter-spacing: 1.25px;
+}
+
+.all-mentions__btn--load-other{
+    text-align: center;
 }
 
 .card__cta span:after{
@@ -52,6 +57,19 @@
     right: -20px;
     /* margin-bottom: -2px; */
     top: 1px;
+}
+
+.card--all-mentions{
+    border: none;
+    border-radius: 0;
+}
+
+.vertical-row {
+    flex-direction: column;
+}
+
+.vertical-row .card__link {
+    margin: 1rem 0;
 }
 
    /* HOVER */
